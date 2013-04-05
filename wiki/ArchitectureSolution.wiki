@@ -20,16 +20,23 @@ The implementation is following a Apache maven code structure.
 
 = Objects =
 
-*Good* this object is the basic container that describes the nature of the goods like name, base price, source, tax assignment.
+*Good*
+this object is the basic container that describes the nature of the goods like name, base price, source, tax assignment.
 
-*TaxCode* this object describe a unique tax identifier that is use to correlate goods with tax brackets
+*TaxCode*
+this object describes a unique tax identifier that is use to correlate goods with tax brackets
 
-*Taxes* this object is used to assign a specific tax value to a tax code
+*Taxes*
+this object is used to assign a specific tax value to a tax code
 
-*TaxStrategy* this object has a group of taxes that can be applied to goods and the business logic to apply them
+*TaxStrategy*
+this object has a group of taxes that can be applied to goods and the business logic to apply them
 
-*TaxStrategyFactory* this factory is used to provide the ability to have multiple tax strategies based on specific parameters (ie. country)
+*TaxStrategyFactory*
+this factory is used to provide the ability to have multiple tax strategies based on specific parameters (ie. country)
 
-*ShoppingItem* this object contains details about the good being purchased as well as to provide a snapshot of costs associated with it 
+*ShoppingItem*
+this object contains details about the good being purchased as well as to provide a snapshot of costs associated with it 
 
-*ShoppingCart* the goal of this object provide the means to manipulate the items being purchased and to delegate the calculation of the goods cost
+*ShoppingCart*
+the goal of this object provide the means to manipulate the items being purchased and to delegate the calculation of the goods cost
