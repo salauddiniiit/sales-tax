@@ -15,5 +15,5 @@ To run the junit tests, execute this command line
 
 To run as a java application, please type in command line
 
-  mvn package
+  mvn package <br>
   java -jar target\salesapp-0.0.1-SNAPSHOT.jar
