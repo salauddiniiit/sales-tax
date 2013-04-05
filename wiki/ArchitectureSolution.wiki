@@ -20,16 +20,16 @@ The implementation is following a Apache maven project structure.
 
 = Objects =
 
-Good
+*Good*
 
-TaxCode
+*TaxCode*
 
-Taxes
+*Taxes*
 
-TaxStrategy
+*TaxStrategy*
 
-TaxStrategyFactory
+*TaxStrategyFactory*
 
-ShoppingItem
+*ShoppingItem*
 
-ShoppingCart
+*ShoppingCart*
