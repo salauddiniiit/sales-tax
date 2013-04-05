@@ -20,10 +20,10 @@ The implementation is following a Apache maven code structure.
 
 = Objects =
 
-*Good*
+*Good* 
 this object is the basic container that describes the nature of the goods like name, base price, source, tax assignment.
 
-*TaxCode*
+*TaxCode* 
 this object describes a unique tax identifier that is use to correlate goods with tax brackets
 
 *Taxes*
