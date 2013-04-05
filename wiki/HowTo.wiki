@@ -7,7 +7,7 @@ In order to execute the application or run the tests, please have maven installe
 
 = Details =
 
-*Please go to the directory when the POM.XML file is located.*
+*Please go to the source code directory where the POM.XML file is located.*
 
 To run the junit tests, execute this command line
 
