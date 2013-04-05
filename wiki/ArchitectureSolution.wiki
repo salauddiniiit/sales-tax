@@ -39,4 +39,4 @@ this factory is used to provide the ability to have multiple tax strategies base
 this object contains details about the good being purchased as well as to provide a snapshot of costs associated with it 
 
 *ShoppingCart*
-the goal of this object provide the means to manipulate the items being purchased and to delegate the calculation of the goods cost
+the goal of this object provide the means to manipulate the items being purchased and to delegate the calculation of the goods cost to different strategies
