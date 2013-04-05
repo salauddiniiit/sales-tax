@@ -16,20 +16,20 @@ The solution had the following goals:
   * Provide a basic architecture that provide flexibility to be easily extendable
   * Develop the solution using Test Driven Development
 
-The implementation is following a Apache maven project structure.
+The implementation is following a Apache maven code structure.
 
 = Objects =
 
-*Good*
+*Good* this object is the basic container that describes the nature of the goods like name, base price, source, tax assignment.
 
-*TaxCode*
+*TaxCode* this object describe a unique tax identifier that is use to correlate goods with tax brackets
 
-*Taxes*
+*Taxes* this object is used to assign a specific tax value to a tax code
 
-*TaxStrategy*
+*TaxStrategy* this object has a group of taxes that can be applied to goods and the business logic to apply them
 
-*TaxStrategyFactory*
+*TaxStrategyFactory* this factory is used to provide the ability to have multiple tax strategies based on specific parameters (ie. country)
 
-*ShoppingItem*
+*ShoppingItem* this object contains details about the good being purchased as well as to provide a snapshot of costs associated with it 
 
-*ShoppingCart*
+*ShoppingCart* the goal of this object provide the means to manipulate the items being purchased and to delegate the calculation of the goods cost
