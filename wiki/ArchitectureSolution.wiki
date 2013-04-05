@@ -1,0 +1,35 @@
+#summary Architecture description and design details
+
+= Introduction =
+
+The solution of this problem was modeled as a simplified e-commerce architecture to support the following requirements:
+  * Purchase goods of different type
+  * Apply the correct tax amounts bases on the type of product
+  * Provide a receipt showing details of the purchased items
+
+= Details =
+
+The solution had the following goals:
+  * Provide support for goods of different nature
+  * Ability to calculate the correct tax amount based of good types
+  * Provide a receipt showing details of the purchased goods
+  * Provide a basic architecture that provide flexibility to be easily extendable
+  * Develop the solution using Test Driven Development
+
+The implementation is following a Apache maven project structure.
+
+= Objects =
+
+Good
+
+TaxCode
+
+Taxes
+
+TaxStrategy
+
+TaxStrategyFactory
+
+ShoppingItem
+
+ShoppingCart
