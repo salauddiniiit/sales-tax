@@ -1,0 +1,1 @@
+The objective of this project is to provide a solution that meets the requirements to the sales tax problem.
